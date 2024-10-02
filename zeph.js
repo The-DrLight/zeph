@@ -24,8 +24,8 @@ document.getElementById("subscriptionForm").addEventListener("submit", function(
     } else {
         responseMessage.textContent = "Please enter a valid email address.";
         responseMessage.style.color = "red";
-    }    
-
+    }
+});
 
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
