@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Pixelsnotfound Studios</title>
+    <link rel="stylesheet" href="pixelsnotfound.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="hamburger-menu">
+        <!-- Checkbox that controls the sidebar -->
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menu-icon">
+            <!-- The hamburger icon -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </div>
+
+    <div id="sideNav">
+        <a href="pixelsnotfound.html">HOME</a>
+        <a href="pixelsnotfound.html">PROJECTS</a>
+        <a href="pixelsnotfound.html">ABOUT</a>
+        <a href="pixelsnotfound.html">CONTACT</a>
+    </div>
+
+    <div class="logo-container">
+        <img src="https://images.app.goo.gl/RqpmJmcZmLvn9xyq9" alt="Company Logo" class="logo">
+        <span class="company-name">Pixelsnotfound Studios</span>
+    </div>
+</header>
+
+<!-- Page content -->
+<main>
+    <div id="topper" class="slideshow-container">
+        <div class="slideshow">
+            <img src="https://images.app.goo.gl/GxVkrZeMbWBaUKaG7" alt="Image 1">
+            <img src="https://images.app.goo.gl/mZiFL4pHVu1K6TUd8" alt="Image 2">
+            <img src="https://images.app.goo.gl/aPhtBCbcVPdae9QF7" alt="Image 3">
+            <img src="https://images.app.goo.gl/3DU7VWoGrNWQLn11A" alt="Image 4">
+        </div>
+        <p class="text" id="motto">Immersive Journeys, Endless Possibilities!</p>
+    </div>
+    <h1>To Game or not to Game...</h1>
+    <p class="text" >We are driven by a passion for crafting immersive, narrative-rich adventures 
+        that transcend borders, age, and cultures. Our goal is to create games that spark emotions,
+         provoke thought, and leave a lasting impact on players everywhere. Every game we make is 
+         designed to be not just fun, but deeply meaningful - offering experiences that resonate 
+         long after the screen goes dark.
+    </p>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <h1>Subscribe to our Mailing List</h1>
+        <form id="subscriptionForm">
+            <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+</footer>
+
+<!-- EmailJS Script -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("yJpXAdBPP3Q26Ljs0");
+    })();
+</script>
+
+<!-- Your custom script -->
+<script src="pixelsnotfound.js"></script>
+
+</body>
+</html>

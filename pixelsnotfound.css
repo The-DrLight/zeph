@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full height */
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Align logo and hamburger menu */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cc2424;
+    border-radius: 8px;
+    position: relative;
+}
+.hamburger-menu {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+main {
+    flex: 1; /* Ensure main content takes remaining height */
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 35px;
+    font-family: 'VT323', 'Press Start 2P', cursive;
+}
+
+#sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#sideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sideNav a:hover {
+    color: #f1f1f1;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label + #sideNav {
+    width: 250px;
+}
+
+.menu-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+#motto {
+    font-size: 20px;
+    font-weight: bold;
+}
+.slideshow-container {
+    width: 80%; /* Adjust width as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slideshow {
+    display: flex;
+    width: 400%; /* Adjust based on the number of images */
+    animation: slide 12s linear infinite;
+  }
+  
+  .slideshow img {
+    width: 25%; /* Each image should take up an equal part of the slideshow container */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%); /* Moves the slideshow fully to the left */
+    }
+  }
+  .slideshow-container:hover .slideshow {
+    animation-play-state: paused;
+  }
+  
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+    text-align: left;
+    border-radius: 8px;
+}
+
+footer h1 {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+input[type="email"] {
+    padding: 8px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #cc2424;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#responseMessage {
+    margin-top: 15px;
+    font-size: 14px;
+}
