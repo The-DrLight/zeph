@@ -41,6 +41,64 @@ nav {
 #free-space {
   width: 1.5rem;
 }
+#home {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+#inside-home {
+  margin: 0px auto;
+  width: 80%;
+}
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+#home-text {
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  padding: 10px 26px;
+}
+hr {
+  width: 70%;
+  margin: 20px auto;
+  height: 2px;
+  background-color: white;
+  border: none;
+}
+#inside-home div {
+  display: flex;
+  justify-content: space-evenly;
+}
+#inside-home div p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: white;
+  font-size: 40px;
+  flex-direction: row;
+  padding: 5px;
+}
+#inside-home div p span {
+  flex-direction: column;
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5px 0;
+}
 
 
 
