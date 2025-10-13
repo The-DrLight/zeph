@@ -186,7 +186,7 @@ hr {
   font-size: 3rem;
   padding: 0 0 18px;
 }
-#services p {
+#services #pp {
   font-size: 18px;
   color: rgb(104, 103, 103);
   padding: 0 0 30px;
@@ -226,7 +226,7 @@ hr {
   box-shadow: 0 5px 12px rgba(0,0,0,0.15);
 }
 #services-dev {
-  background-color: rgb(226, 224, 224);
+  background-color: rgb(253, 252, 252);
   display: flex;
   align-items: center; /* vertically center content */
   justify-content: space-between; /* space between text and image */
@@ -234,6 +234,7 @@ hr {
   padding: 30px 30px;
   text-align: left;
   border-radius: 18px;
+  box-shadow: 10px 10px 20px rgba(214, 213, 213, 0.3);
 }
 #services-text {
   flex: 1; /* take equal space */
@@ -247,11 +248,11 @@ hr {
   line-height: 1.6;
 }
 .dev-class h5 {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 600;
   display: inline-block;
-}
-.dev-class p {
-  font-size: 8px;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 .dev-num {
   background-color: black;
@@ -267,16 +268,41 @@ hr {
   font-weight: 800;
   color: white;
 }
-
-
+#dev-text-1 {
+  font-size: 30px;
+  padding-left: 42px;
+  padding-bottom: 15px;
+  color: rgb(104, 103, 103);
+  font-weight: 500;
+}
+#dev-text-2 {
+  font-size: 30px;
+  padding-left: 42px;
+  padding-bottom: 15px;
+  color: rgb(104, 103, 103);
+  font-weight: 500;
+}
+#dev-text-3 {
+  font-size: 30px;
+  padding-left: 42px;
+  padding-bottom: 15px;
+  color: rgb(104, 103, 103);
+  font-weight: 500;
+}
+#dev-text-4 {
+  font-size: 30px;
+  padding-left: 42px;
+  padding-bottom: 15px;
+  color: rgb(104, 103, 103);
+  font-weight: 500;
+}
 /* Right image section */
-.image-side {
+#services-image {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
-
-.image-side img {
+#console {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
