@@ -400,3 +400,6 @@ hr {
   color: rgb(104, 103, 103);
   padding: 0 0 30px;
 }
+.form {
+  display: block;
+}
