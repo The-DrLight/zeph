@@ -432,3 +432,7 @@ form label {
 #project-desc {
   height: 40px;
 }
+#contact-flex {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
