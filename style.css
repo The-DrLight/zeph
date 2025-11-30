@@ -436,3 +436,74 @@ form label {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+/* Footer Styling */
+footer {
+  background-color: #1a1a1a; /* Dark background for contrast */
+  color: #f0f0f0; /* Light text */
+  padding: 40px 20px;
+}
+
+footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+footer div {
+  margin-bottom: 20px;
+}
+
+footer div a {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #aaaaaa;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+footer div a:hover {
+  color: #ffffff; /* Highlight on hover */
+}
+
+footer hr {
+  border: 0;
+  border-top: 1px solid #333333;
+  margin: 20px 0;
+}
+
+footer > div:last-child p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888888;
+  margin: 10px 0 0 0;
+}
+
+/* Responsive Layout */
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer > div {
+    flex: 1 1 40%;
+    margin-bottom: 0;
+  }
+
+  footer div a {
+    margin-right: 20px;
+  }
+
+  footer hr {
+    flex-basis: 100%;
+  }
+}
